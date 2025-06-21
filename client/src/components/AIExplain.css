@@ -1,0 +1,80 @@
+.ai-explain-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.ai-title {
+  color: #19191a;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.ai-input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.ai-question-input {
+  flex: 1;
+  padding: 12px 15px;
+  border: 1px solid #7a7575;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border 0.3s;
+}
+
+.ai-question-input:focus {
+  outline: none;
+  border-color: #212122;
+}
+
+.ai-ask-button {
+  padding: 12px 20px;
+  background-color: #232425;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.ai-ask-button:hover {
+  background-color: #1b1c1d;
+}
+
+.ai-ask-button:disabled {
+  background-color: #282929;
+  cursor: not-allowed;
+}
+
+.ai-answer-container {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.ai-answer-title {
+  color: #1e1f20;
+  margin-bottom: 1rem;
+}
+
+.ai-answer-content {
+  line-height: 1.6;
+  color: #282a2c;
+  white-space: pre-line; /* Preserves line breaks */
+}
+
+.ai-answer-content p {
+  margin-bottom: 1rem;
+}
+
+.ai-answer-content p:last-child {
+  margin-bottom: 0;
+}

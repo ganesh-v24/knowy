@@ -1,0 +1,51 @@
+.note-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  font-family: sans-serif;
+}
+
+.note-input input,
+.note-input textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.note-input button {
+  padding: 8px 12px;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+.note-input button:hover {
+  background-color: #4338ca;
+}
+
+.note-tag {
+  display: inline-block;
+  background: #e0e7ff;
+  padding: 4px 8px;
+  margin: 4px 6px 0 0;
+  border-radius: 6px;
+  font-size: 0.85rem;
+}
+.note-tag button {
+  background: transparent;
+  border: none;
+  margin-left: 4px;
+  color: red;
+  cursor: pointer;
+}
+
+.note-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  background: #f9f9f9;
+}
